@@ -78,7 +78,7 @@ Rectangle {
             }
         }
         Row {
-        	opacity: 0.3
+        	opacity: 1.0
             spacing: units.smallSpacing*2
             anchors {
                 bottom: parent.bottom
@@ -86,18 +86,18 @@ Rectangle {
                 margins: units.gridUnit
             }
             anchors.horizontalCenter: parent.horizontalCenter
-            Text {
-                color: "#eff0f1"
-                // Work around Qt bug where NativeRendering breaks for non-integer scale factors
-                // https://bugreports.qt.io/browse/QTBUG-67007
-                renderType: Screen.devicePixelRatio % 1 !== 0 ? Text.QtRendering : Text.NativeRendering
-                anchors.verticalCenter: parent.verticalCenter
-                text: "Welcome to Plasma"
-            }
+            // Text {
+            //     color: "#eff0f1"
+            //     // Work around Qt bug where NativeRendering breaks for non-integer scale factors
+            //     // https://bugreports.qt.io/browse/QTBUG-67007
+            //     renderType: Screen.devicePixelRatio % 1 !== 0 ? Text.QtRendering : Text.NativeRendering
+            //     anchors.verticalCenter: parent.verticalCenter
+            //     text: "Welcome to Plasma"
+            // }
             Image {
-                source: "images/kde.svgz"
+                source: "images/arch-text.svg"
                 sourceSize.height: units.gridUnit * 2
-                sourceSize.width: units.gridUnit * 2
+                sourceSize.width: units.gridUnit * 2 * 4.975
             }
         }
     }
