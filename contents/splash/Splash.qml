@@ -60,23 +60,23 @@ Rectangle {
             }
         }
 
-        Image {
-            id: busyIndicator
-            //in the middle of the remaining space
-            y: parent.height - 150
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.margins: units.gridUnit
-            source: "images/busywidget.svgz"
-            sourceSize.height: units.gridUnit * 2
-            sourceSize.width: units.gridUnit * 2
-            RotationAnimator on rotation {
-                id: rotationAnimator
-                from: 0
-                to: 360
-                duration: 1500
-                loops: Animation.Infinite
-            }
-        }
+        // Image {
+        //     id: busyIndicator
+        //     //in the middle of the remaining space
+        //     y: parent.height - 150
+        //     anchors.horizontalCenter: parent.horizontalCenter
+        //     anchors.margins: units.gridUnit
+        //     source: "images/busywidget.svgz"
+        //     sourceSize.height: units.gridUnit * 2
+        //     sourceSize.width: units.gridUnit * 2
+        //     RotationAnimator on rotation {
+        //         id: rotationAnimator
+        //         from: 0
+        //         to: 360
+        //         duration: 1500
+        //         loops: Animation.Infinite
+        //     }
+        // }
         Row {
         	opacity: 1.0
             spacing: units.smallSpacing*2
@@ -95,9 +95,9 @@ Rectangle {
             //     text: "Welcome to Plasma"
             // }
             Image {
-                source: "images/arch-text.svg"
-                sourceSize.height: units.gridUnit * 2
-                sourceSize.width: units.gridUnit * 2 * 4.975
+                source: "images/arch-logo.svg"
+                sourceSize.height: units.gridUnit * 4
+                sourceSize.width: units.gridUnit * 4
             }
         }
     }
