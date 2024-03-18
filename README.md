@@ -1,4 +1,4 @@
-# watch_dogs-kde-splash
+# Watch_dogs x Arch Linux splash screen for KDE Plasma 6
 
 ![preview](./contents/previews/splash.gif)
 
