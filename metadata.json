@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "sharun@sharunkumar.com",
+                "Name": "Sharun Kumar"
+            }
+        ],
+        "Category": "",
+        "Description": "Watch_dogs boot screen for Plasma KDE",
+        "Id": "com.sharunkumar.watchdogs",
+        "License": "GPLv2+",
+        "Name": "WatchDogsBootSplashArch",
+        "Website": "https://github.com/sharunkumar/watch_dogs-kde-splash-arch"
+    },
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;",
+    "X-Plasma-APIVersion": "2"
+}
