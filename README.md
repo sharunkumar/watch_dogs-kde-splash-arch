@@ -11,8 +11,8 @@ I haven't published this on the KDE store (yet). For now, you can manually insta
 ```bash
 git clone https://github.com/sharunkumar/watch_dogs-kde-splash-arch.git
 cd watch_dogs-kde-splash-arch
-mkdir -pv ~/.local/share/plasma/look-and-feel/com.sharunkumar.watchdogs
-cp -r . ~/.local/share/plasma/look-and-feel/com.sharunkumar.watchdogs
+mkdir -pv ~/.local/share/plasma/look-and-feel/com.sharunkumar.watchdogsxarchlinux
+cp -r . ~/.local/share/plasma/look-and-feel/com.sharunkumar.watchdogsxarchlinux
 ```
 
 After this, `Watch_Dogs x Arch Linux` splash creen will be availabe in settings.
