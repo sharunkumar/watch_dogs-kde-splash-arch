@@ -1,5 +1,7 @@
 # watch_dogs-kde-splash
 
+![preview](./contents/previews/splash.gif)
+
 Original Available [here](https://store.kde.org/p/1417004)
 
 ## Installation Instructions
